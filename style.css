@@ -1,0 +1,265 @@
+div.image-section {
+  width: 100%;
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  background-image: url("images/page1image830432.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.menu {
+  display: none;
+  padding: 10px 0px;
+  margin: 0px 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Barlow', sans-serif;
+}
+
+div.menu > a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  font-size: 1.3em;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+img.main-logo {
+  max-width: 150px;
+  margin-top: 0;
+}
+
+div.section-text {
+  padding: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div.section-text > div > h1 {
+  font-weight: 200;
+  font-size: 40pt;
+  margin: 0;
+}
+
+div.section-text > div > p {
+  margin: 10;
+}
+
+div.picture-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+div.picture-grid > img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+div.picture-grid > img:hover {
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+p{
+  font-family:'Barlow', sans-serif;
+  font-size: 20px;
+}
+
+.menulink {
+  font-family: 'Barlow', sans-serif;
+  font-weight:,normal;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 0 20px;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.menulink:hover {
+  color:#e65025;
+}
+
+
+body {
+  padding: 2px 0 0 2px;
+}
+
+.gallery img {
+  float: left;
+  padding: 0 15px 15px 0;
+}
+
+div.image-section2 {
+  width: 75%;
+  height: 100%;
+  padding-top: 50px;
+  background-image: url("images/cama.png");
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  resize: both;
+
+}
+
+div.image-section3 {
+  width: 100%;
+  height: 250px;
+  background: #e89124;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-bottom:100px;
+
+}
+
+div.rect-fill {
+
+  background-color: #E89124;
+  width: 100px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55%;
+
+
+}
+
+div.ultimo-fill{
+  background-color: #E89124;
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+h1
+{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
+p
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px
+}
+
+div.bar{
+  margin-top:o;
+  }
+
+.sociales li{
+  list-style: none;
+  }
+
+.main-form{
+  width: 351px;
+right: 100px;
+top: 200px;
+padding: 10px;
+position: absolute;
+margin-right: 0;
+margin-left: 0;
+}
+
+.socialmedia{
+  display: inline-block;
+  padding: 10px;
+  float:left;
+}
+
+.social-container{
+  background-color: #E89124;
+ color: #DEDEDE;
+ align-content: center;
+ text-align: center;
+ width: 215px;
+ margin: 0 auto;
+}
+
+.iconos-desktop {
+  display: block;
+}
+
+.iconos-mobile {
+  display: none;
+}
+
+@media (max-width: 768px){
+    .subtitle {
+      text-align: left;
+      width: 100%;
+    }
+
+    .text {
+      width: 100%;
+    }
+
+    div.section-text {
+      padding: 40px;
+      display: block;
+      grid-template-columns: none;
+    }
+
+    .main-form {
+      width: 100%;
+      right: 10px;
+    }
+
+    img.main-logo {
+    max-width: 80px;
+    }
+
+    div.menu {
+    margin: 0;
+    }
+
+    .footer {
+      display: none;
+    }
+
+    div.image-section2 {
+    width: 75%;
+    height: auto;
+    background-image: none;
+    }
+
+    .image-section2 h1 {
+    color:#000 !important;
+    }
+
+    .iconos-desktop {
+      display: none;
+    }
+
+    .iconos-mobile {
+      display: block;
+    }
+}
